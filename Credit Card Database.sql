@@ -49,7 +49,7 @@ CREATE TABLE cust_detail (
 
 -- Extracting Data from CSV file of Credit Card
 
-LOAD DATA INFILE 'C:/cccc.csv' INTO TABLE cc_detail
+LOAD DATA INFILE 'C:/credit_card_trans.csv' INTO TABLE cc_detail
 fields terminated by ','
 iGNORE 1 lines;
 
